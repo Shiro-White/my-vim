@@ -1,0 +1,24 @@
+[submodule "pack/my-plugins/start/nerdtree"]
+	path = pack/my-plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/my-plugins/start/vim-snipmate"]
+	path = pack/my-plugins/start/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "pack/my-plugins/start/vim-closetag"]
+	path = pack/my-plugins/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag.git
+[submodule "pack/my-plugins/start/auto-pairs"]
+	path = pack/my-plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "pack/my-plugins/start/lightline.vim"]
+	path = pack/my-plugins/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "pack/my-plugins/start/YouCompleteMe"]
+	path = pack/my-plugins/start/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "pack/my-plugins/start/tlib_vim"]
+	path = pack/my-plugins/start/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "pack/my-plugins/start/vim-addon-mw-utils"]
+	path = pack/my-plugins/start/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
