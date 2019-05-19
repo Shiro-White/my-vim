@@ -73,3 +73,8 @@ endfunction
 let g:user_emmet_install_global = 0
 let g:user_emmet_leader_key='<C-Z>'
 autocmd FileType html,css EmmetInstall
+
+"snippets
+let g:snipMate = get(g:, 'snipMate', {}) " Allow for vimrc re-sourcing
+let g:snipMate.scope_aliases = {}
+let g:snipMate.scope_aliases['html'] = 'html,ejs'

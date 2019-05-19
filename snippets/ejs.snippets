@@ -1,0 +1,40 @@
+snippet ejs
+	<% ${1} %>${2}
+
+snippet ejsout
+	<%= ${1} %>${2}
+
+snippet ejsesc
+	<%- ${1} %>${2}
+
+snippet ejscom
+	<%# ${1} %>${2}
+
+snippet ejslit
+	<%% ${1} %>${2}
+
+snippet ejsinc
+	<%- include('${1}') %>${2}
+
+snippet ejsfor
+	<% for(let ${1:i} = 0; ${1:i} < ${2:arr}.length; ${1:i}++) { %>
+		${3}
+	<% } %>
+
+snippet ejseach
+	<% ${1:arr}.forEach(${2:element} => { %>
+		${3}
+	<% }) %>
+
+snippet ejsif
+	<% if (${1}) { %>
+		${2}
+	<% } %>
+
+snippet ejselse
+	<% } else { %>
+		${1}
+
+snippet ejselif
+	<% } else if (${1}) { %>
+		${2}
