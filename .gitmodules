@@ -22,3 +22,9 @@
 [submodule "pack/my-plugins/start/vim-addon-mw-utils"]
 	path = pack/my-plugins/start/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "pack/my-plugins/start/ale"]
+	path = pack/my-plugins/start/ale
+	url = https://github.com/w0rp/ale.git
+[submodule "pack/my-plugins/start/emmet-vim"]
+	path = pack/my-plugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim
